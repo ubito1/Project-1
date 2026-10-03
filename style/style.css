@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(193, 193, 202);
+}
+h1{
+    color: White;
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Arial Rounded MT Bold';
+}
+#word{
+ width: 100%;
+    font-size: 20px;
+    font-family: 'times new roman';
+text-align: left;
+
+}
+.form-label{
+    color: rgb(45, 35, 35);
+    font-size:40px;
+    font-family: 'Arial Rounded MT Bold';
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.container{
+   
+    align-items: center;
+}
+.logo{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+
+    .form-label {
+        font-size: 28px;
+    }
+}
