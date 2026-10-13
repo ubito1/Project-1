@@ -118,3 +118,4 @@ func BannerHandler(w http.ResponseWriter, req *http.Request) {
 		log.Printf("Template execution error: %v", err)
 	}
 }
+//last time
